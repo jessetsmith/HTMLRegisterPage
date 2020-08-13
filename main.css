@@ -35,7 +35,7 @@ nav {
     color: white;
     background-color: rosybrown;
     font-family: Arial, Helvetica, sans-serif;
-    border: .5px solid grey;
+    border: 1px solid grey;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -48,6 +48,24 @@ nav {
     cursor: pointer;
 }
 
+.nav-button {
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+  .nav-button:hover, .nav-button:focus, .nav-button:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    background-color: black;
+    color:rosybrown;
+
+  }
+  
 .form-wrapper {
     width: 30%;
     min-height: 500px;
@@ -80,6 +98,11 @@ input {
 
 }
 
+input:hover {
+    background-color: lightgrey;
+    color: black;
+}
+
 #button {
     margin:2em;
     width: 90%;
@@ -99,6 +122,28 @@ input {
     font-size: 2em;
     margin:1em;
 }
+
+.social a {
+    text-decoration: none;
+    color: black;
+}
+
+.social a {
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+  .social a:hover, .social a:focus, .social a:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    color:rosybrown;
+
+  }
 
 #amazon {
     border-radius: 50%;
