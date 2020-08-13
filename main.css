@@ -1,0 +1,106 @@
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: lavender;
+}
+
+nav {
+    margin-top: -.5em;
+    background-color: white;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: right;
+    justify-content: flex-end;
+    float: right;
+}
+
+.nav-button-wrapper {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+
+.nav-button {
+    color: white;
+    background-color: rosybrown;
+    font-family: Arial, Helvetica, sans-serif;
+    border: .5px solid grey;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    width: 7em;
+    height: 2em;
+    border-radius: 3px;
+    margin: 1em;
+    cursor: pointer;
+}
+
+.form-wrapper {
+    width: 30%;
+    min-height: 500px;
+    padding: 1.5em;
+    margin: 2em;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px grey;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.header {
+    /* margin-left: .5em; */
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+input {
+    border-style: 1px solid grey;
+    border-radius: 3px;
+    margin:1em;
+    height: 2.5em;
+    width:90%;
+
+}
+
+#button {
+    margin:2em;
+    width: 90%;
+    height: 3em;
+    border-radius: 3px;
+    background-color: rosybrown;
+    color: white;
+    cursor: pointer;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    font-size: 2em;
+    margin:1em;
+}
+
+#amazon {
+    border-radius: 50%;
+    
+}
